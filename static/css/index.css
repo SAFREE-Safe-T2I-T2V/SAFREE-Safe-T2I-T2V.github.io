@@ -193,10 +193,10 @@ body{
     border-top:0px solid rgb(255, 180, 240);
     /*border-bottom:5px solid orange;*/
 }
-
-b{rgb(0, 0, 0)
+/* 
+b{rgb(0, 0, 0);
   color: #eb002a;
-}
+} */
 
 .title{
   text-align: center;
