@@ -103,7 +103,7 @@
               <div class="publication-links">                      
                 <!-- ArXiv abstract Link -->
                 <span class="link-block">
-                  <a href="https://arxiv.org/abs/2405.18406" class="external-link button is-normal is-rounded is-dark">
+                  <a href="https://jaehong31.github.io/" class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="fas fa-file-pdf"></i>
                     </span>
@@ -186,7 +186,7 @@
           <img src="static/images/safree-framework.png">
         </div>
         <p class="content has-text-justified">
-          <b>Figure2: Illustration of SAFREE framework</b>. 
+          <b>Figure 2: Illustration of SAFREE framework</b>. 
           Based on proximity analysis between the masked token embeddings and the toxic subspace C, 
           we detect unsafe tokens and project them into orthogonal to the toxic concept, but still be in the input space I. 
           SAFREE adaptively controls the filtering power in an input-dependent manner, which also regulates a latent-level re-attention mechanism. 
@@ -197,7 +197,33 @@
   </div>
 </section>
 
-
+<section class="section hero">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column">
+        <h2 class="title is-3">Quantitative Results</h2>
+        <div class="content has-text-justified">
+          <img src="static/images/main-table.png">
+        </div>
+        <p class="content has-text-justified">
+          <b>Table 1:</b> Attack Success Rate (ASR) and generation quality comparison with training-free and training-based safe T2I generation methods. Best results are bolded.
+        </p>
+        <div class="content has-text-justified">
+          <img src="static/images/table-xl-v3.png">
+        </div>
+        <p class="content has-text-justified">
+          <b>Table 2:</b> Attack Success Rate (ASR) and generation quality comparison of ours with SDXL and SD-V3. 
+        </p>
+        <div class="content has-text-justified">
+          <img src="static/images/table-video.png">
+        </div>
+        <p class="content has-text-justified">
+          <b>Table 3:</b> SAFREE for safe video generation on SafeSora benchmark. Our method is applied on ZeroScopeT2V and CogVideoX-5B.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
 
       <section class="section hero">
         <div class="container is-max-desktop">
@@ -214,31 +240,7 @@
                 <div id="image-container">
                   <!-- Dynamically generated buttons and images will go here -->
                 </div>
-          
-                <!-- <button id="toggleButton1" class="fancy-button">Unlock Figures</button>
-                <br><br><br>
-                <figure id="blurredFigure1">
-                  <img src="./static/images/overall-vis.png" alt="Sample Image">
-                  <div class="content has-text-justified" style="margin: auto; width: 90%;">
-                    <b>Visualization of proposed SAFREE.</b> Left: Comparison with other methods on different
-                      concept removal. Right: SAFREE incorporates with different T2I backbone models (SDXL and
-                      SD-v3) and T2V models (ZeroScopeT2V and CogVideoX).
-                </div>
-                </figure>       -->
               </center>
-              <!-- <br>
-              <center>
-                <button id="toggleButton2" class="fancy-button">Unlock Figures</button>
-                <br>
-                <figure id="blurredFigure2">
-                  <img src="./static/images/overall-vis.png" alt="Sample Image">
-                  <div class="content has-text-justified" style="margin: auto; width: 90%;">
-                    <b>Visualization of proposed SAFREE.</b> Left: Comparison with other methods on different
-                      concept removal. Right: SAFREE incorporates with different T2I backbone models (SDXL and
-                      SD-v3) and T2V models (ZeroScopeT2V and CogVideoX).
-                </div>
-                </figure>      
-              </center> -->
               <script src="script.js"></script>
             </div>
           </div>
