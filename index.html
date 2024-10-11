@@ -4,27 +4,28 @@
   <meta charset="utf-8">
   <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
   <!-- Replace the content tag with appropriate information -->
+  
   <meta name="description" content="DESCRIPTION META TAG">
-  <meta property="og:title" content="RACCooN: Remove, Add, and Change Video Content with Auto-Generated Narratives"/>
-  <meta property="og:description" content="RACCooN: Remove, Add, and Change Video Content with Auto-Generated Narratives"/>
+  <meta property="og:title" content="SAFREE: Training-Free and Adaptive Guard for Safe Text-to-Image And Video Generation"/>
+  <meta property="og:description" content="SAFREE: Training-Free and Adaptive Guard for Safe Text-to-Image And Video Generation"/>
   <meta property="og:url" content="https://SAFREE-Safe-T2I-T2V.github.io/"/>
   <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
-  <meta property="og:image" content="static/images/raccoon_icon.png" />
+  <meta property="og:image" content="static/images/un_icon.png" />
   <meta property="og:image:width" content="1200"/>
   <meta property="og:image:height" content="630"/>
 
 
-  <meta name="twitter:title" content="RACCooN: Remove, Add, and Change Video Content with Auto-Generated Narratives">
-  <meta name="twitter:description" content="RACCooN: Remove, Add, and Change Video Content with Auto-Generated Narratives">
+  <meta name="twitter:title" content="SAFREE: Training-Free and Adaptive Guard for Safe Text-to-Image And Video Generation">
+  <meta name="twitter:description" content="SAFREE: Training-Free and Adaptive Guard for Safe Text-to-Image And Video Generation">
   <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
   <meta name="twitter:image" content="./static/images/teaser.png">
   <meta name="twitter:card" content="summary_large_image">
   <!-- Keywords for your paper to be indexed by-->
-  <meta name="keywords" content="video caption, video inpaitning, video generation, genai, MLLM, video diffusion">
+  <meta name="keywords" content="safe generation, safe text-to-image generation, safe text-to-video generation, concept removal">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-  <title>RACCooN</title>
+  <title>SAFREE</title>
   <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
   rel="stylesheet">
@@ -72,23 +73,28 @@
         <div class="columns is-centered">
           <div class="column has-text-centered">
             <h1 class="title is-2 publication-title">
-              <img style="max-height: 36px;" src="./static/raccoon_icon.ico"/>
-              RACCooN: Remove, Add, and Change Video Content with Auto-Generated Narratives
+              SAFREE: Training-Free and Adaptive Guard for Safe Text-to-Image And Video Generation
               </h1>                    
           <div class="is-size-4 publication-authors">
             <span class="author-block">
-              <a href="https://jaehong31.github.io/" target="_blank">Jaehong Yoon<sup>*</sup></a>
+              <a href="https://jaehong31.github.io/" target="_blank"><b>Jaehong Yoon<sup>*</sup></b></a>
             </span> &nbsp;
             <span class="author-block" , style="padding-left:30px">
-              <a href="https://yui010206.github.io/" target="_blank">Shoubin Yu<sup>*</sup></a>
+              <a href="https://yui010206.github.io/" target="_blank"><b>Shoubin Yu<sup>*</sup></b></a>
             </span> &nbsp;
             <span class="author-block" , style="padding-left:30px">
-              <a href="https://www.cs.unc.edu/~mbansal/">Mohit Bansal</a>
+              <a href="https://vaidehi99.github.io/"><b>Vaidehi Patil</b></a>
+            </span>  &nbsp;
+            <span class="author-block" , style="padding-left:30px">
+              <a href="https://www.huaxiuyao.io/"><b>Huaxiu Yao</b></a>
+            </span>  &nbsp;
+            <span class="author-block" , style="padding-left:30px">
+              <a href="https://www.cs.unc.edu/~mbansal/"><b>Mohit Bansal</b></a>
             </span>
           </div>
-
-          <div class="is-size-5 publication-authors">
-            <span class="author-block">University of North Carolina, Chapel Hill</span>
+          <br>
+          <div class="is-size-4 publication-authors">
+            <span class="author-block"><b>UNC Chapel Hill</b></span>
           </div>
           <div class="is-size-5 publication-authors">
             <span class="author-block">*: equal contribution</span>
@@ -116,22 +122,21 @@
                   </a>
                 </span> -->
                 <span class="link-block">
-									<a href="https://github.com/jaehong31/raccoon" class="external-link button is-normal is-rounded is-dark">
+									<a href="https://github.com/jaehong31/SAFREE" class="external-link button is-normal is-rounded is-dark">
 										<span class="icon">
 											<i class="fab fa-github"></i>
 										</span>
 										<span>Code</span>
 									</a>
 								</span>
-                <span class="link-block">
+                <!-- <span class="link-block">
                   <a href="https://huggingface.co/jaehong31/RACCooN/" class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
-                      <img style="max-width: 16px;" src="./static/hf_fa.ico" alt="Hugging Face"/>
-                      <!-- <i class="fas fa-file-pdf"></i> -->
+                      <img style="max-width: 16px;" src="./static/hf_fa.ico" alt="Hugging Face"/>  
                     </span>
                     <span>Checkpoints and Dataset</span>
                   </a>
-                </span>
+                </span> -->
             </div>
           </div>
         </div>
@@ -144,10 +149,15 @@
   <div class="body">
     <div class="container">
       <center>
-        <img src="./static/images/teaser.png" width="70%">
-      </center>
-      <div class="content has-text-justified" style="margin: auto; width: 70%;">
-          <b>Figure 1: Overview of RACCooN</b>, a versatile and user-friendly video-to-paragraph-to-video framework, enables users to remove, add, or change video content via updating auto-generated narratives.
+        <img src="./static/images/teaser.png" width="90%">
+      </center>      
+
+      <div class="content has-text-justified" style="margin: auto; width: 90%;">
+          <b>Figure 1:</b>  We present SAFREE, an adaptive, training-free method for T2I that filters a variety of user-defined concepts. SAFREE enables safe and faithful generation that can remove toxic concepts and create a safer version of inappropriate prompts without requiring any model updates. SAFREE is also versatile and adaptable, enabling its application to other backbones (such as Diffusion Transformer) and across different applications (like T2V) for enhanced safe generation. Fire icon: training/editing-based methods that alter model weights. Snowflake icon: training-free methods with no weights updating. We manually masked/blurred sensitive text prompts and generated results for display purposes.
+      </div>
+      <br>
+      <div class="content has-text-justified" style="margin: auto; width: 90%; color:#fa3c3c">
+        <b>Content warning:</b> this paper contains content that may be inappropriate or offensive, such as violence, sexually explicit content, and negative stereotypes and actions.
       </div>
     </div>
   </div>
@@ -162,7 +172,20 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Recent video generative models primarily rely on carefully written text prompts for specific tasks, like inpainting or style editing. They require labor-intensive textual descriptions for input videos, hindering their flexibility to adapt personal/raw videos to user specifications. This paper proposes RACCooN, a versatile and user-friendly video-to-paragraph-to-video generative framework that supports multiple video editing capabilities such as removal, addition, and modification, through a unified pipeline. RACCooN consists of two principal stages: Video-to-Paragraph (V2P) and Paragraph-to-Video (P2V). In the V2P stage, we automatically describe video scenes in well-structured natural language, capturing both the holistic context and focused object details. Subsequently, in the P2V stage, users can optionally refine these descriptions to guide the video diffusion model, enabling various modifica- tions to the input video, such as removing, changing subjects, and/or adding new objects. The proposed approach stands out from other methods through several significant contributions: (1) RACCooN suggests a multi-granular spatiotemporal pooling strategy to generate well-structured video descriptions, capturing both the broad context and object details without requiring complex human annotations, simplifying precise video content editing based on text for users. (2) Our video generative model incorporates auto-generated narratives or instructions to enhance the quality and accuracy of the generated content. It supports the addition of video objects, inpainting, and attribute modification within a unified framework, surpassing existing video editing and inpainting benchmarks. The proposed framework demonstrates impressive versatile capabilities in video-to-paragraph generation (up to 10.8% ↑ relative improvement in human evaluations against the baseline), video content editing (relative 49.7% ↑ in FVD), and can be incorporated into other SoTA video generative models for further enhancement
+            Recent advances in diffusion models have significantly enhanced their ability to generate high-quality images and videos, but they have also increased the risk of producing unsafe content.
+            Existing unlearning/editing-based methods for safe generation remove harmful concepts from the models but face several challenges: 
+            (1) They cannot instantly remove harmful or undesirable concepts (e.g., artist styles) without extra training. 
+            (2) Their safe generation abilities depend on collected training data.
+            (3) They alter model weights, thus risking degrading quality unrelated to content unrelated to the toxic targeted concepts.
+            To address these challenges, we propose SAFREE, a novel training-free approach for safe text-to-image and video generation, without altering the model's weights. 
+            Specifically, we detect a subspace corresponding to a set of toxic concepts in the text embedding space and steer prompt token embeddings away from this subspace, thereby filtering out harmful content while preserving intended semantics. 
+            To balance the trade-off between filtering toxicity and preserving safe concepts, SAFREE incorporates a novel self-validating filtering mechanism that dynamically adjusts denoising steps when applying filtered embeddings. 
+            Additionally, we incorporate adaptive re-attention mechanisms within the diffusion latent space to selectively reduce the influence of features related to toxic concepts at the pixel level. 
+            By integrating filtering across both textual embedding and visual latent spaces, SAFREE achieves coherent safety checking, ensuring the fidelity, quality, and safety of the generated outputs.
+            Empirically, SAFREE demonstrates state-of-the-art performance for suppressing unsafe content in T2I generation (reducing 22% across 5 datasets) compared to other training-free methods and effectively filters targeted concepts, e.g., specific artist styles, while maintaining high-quality output. 
+            It also shows competitive results against training-based methods. 
+            We further extend our SAFREE to various T2I backbones and T2V tasks, showcasing its flexibility and generalization. 
+            As generative AI rapidly evolves, SAFREE provides a robust and adaptable safeguard for ensuring safe visual generation.
           </p>
         </div>
       </div>
@@ -177,12 +200,16 @@
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
       <div class="column">
-        <h2 class="title is-3">RACCooN Framework</h2>
+        <h2 class="title is-3">SAFREE Framework</h2>
         <div class="content has-text-justified">
-          <img src="static/images/pipeline.png">
+          <img src="static/images/safree-framework.png">
         </div>
         <p class="content has-text-justified">
-          <b>Figure2: Illustration of RACCooN framework</b>. RACCooN generates video descriptions with the three distinct pooled visual tokens, including Multi-Granular Spatiotemporal (MGS) Pooling. Next, the user can edit the generated descriptions by adding, removing, or modifying words to create new videos. Note that for adding object tasks, if users do not provide layout information for the objects they want to add, RACCooN can predict the target layout in each frame.
+          <b>Figure2: Illustration of SAFREE framework</b>. 
+          Based on proximity analysis between the masked token embeddings and the toxic subspace C, 
+          we detect unsafe tokens and project them into orthogonal to the toxic concept, but still be in the input space I. 
+          SAFREE adaptively controls the filtering power in an input-dependent manner, which also regulates a latent-level re-attention mechanism. 
+          Note that our approach can be broadly applied to various image and video diffusion backbones.
         </p>
       </div>
     </div>
@@ -191,597 +218,47 @@
 
 
 
-<section class="section hero is-light">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title is-3">Video-to-Pargraph Visualization</h2>
-
-      <div style="display: grid; grid-template-columns: repeat(5, 1fr); gap: 20px; max-width: 1280px; margin: auto;">
-        <!-- 第一个视频-文本对 -->
-      <div style="text-align: center;">
-          <video poster="" id="video1" class="lozad" autoplay muted loop playsinline style="width: 100%;">
-            <source src="static/videos/72690ef572.mp4" type="video/mp4">
-            sorry, your browser does not support HTML5 Videos.
-          </video>
-          <div style="color: rgb(0, 0, 0); text-align: left; padding: 10px; backgrgb(254, 254, 254),0,0.5);">
-            <strong>[Video Description]:</strong> The video captures an outdoor scene where a man and a brown dog are enjoying a playful moment in a residential swimming pool. The dog is seen actively playing, diving into the water, and splashing around, while the man interacts and plays with the dog. The pool is surrounded by a wooden fence, and the area seems to be a backyard setting with no other significant objects or individuals present.
-            <br>
-            <br>
-            <ul>
-              <li><strong>[Man]:</strong> A shirtless individual, appearing to be in a casual, leisurely mood, engaging with the dog in the pool.</li>
-              <li><strong>[Dog]:</strong> A brown dog with a dark face, playing actively in the water, diving and splashing around.</li>
-              <li><strong>[Swimming Pool]:</strong> A standard residential swimming pool with a white interior, surrounded by a wooden fence, and a dark blue water surface.</li>
-              <li><strong>[Water Splash]:</strong> The man and the dog are captured in moments where the man throws the dog into the water, resulting in splashes and splashbacks.</li>
-            </ul>
-          </div>
-      </div>
-  
-      <!-- 第二个视频-文本对 -->
-      <div style="text-align: center;">
-          <video poster="" id="video2" class="lozad" autoplay muted loop playsinline style="width: 100%;">
-            <source src="static/videos/b24fe36b2a.mp4" type="video/mp4">
-            sorry, your browser does not support HTML5 Videos.
-          </video>
-          <div style="color: rgb(0, 0, 0); text-align: left; padding: 10px; backgrgb(254, 254, 254),0,0.5);">
-            <strong>[Video Description]:</strong> The video captures a surfer engaging with a wave in a calm ocean. The surfer, clad in a dark wetsuit, maneuvers on a colorful surfboard, riding the crest of a wave and eventually falling off as the wave curls back. The scene is serene, with the blue water and gentle movement of the waves, and the surfer's attempt to catch the wave highlights the dynamic nature of the sport.
-            <br>
-            <br>
-            <ul>
-              <li><strong>[Surfer]:</strong> The surfer is wearing a dark wetsuit with light-colored designs and a helmet-style accessory. They are on a colorful surfboard, navigating the wave with skill and balance.</li>
-              <li><strong>[Surfboard]:</strong> The surfboard is vibrant, with a mix of colors that include white, blue, and red. Its design includes a swirling pattern near the tail.              </li>
-              <li><strong>[Wave]:</strong> The wave is a gentle, curling form, providing a surfing experience for the surfer.</li>
-              <li><strong>[Sky]:</strong> The sky is a clear, cloudless blue, suggesting fair weather for outdoor activities like surfing.</li>
-            </ul>
-          </div>
-      </div>
-  
-      <!-- 第三个视频-文本对 -->
-      <div style="text-align: center;">
-          <video poster="" id="video3" class="lozad" autoplay muted loop playsinline style="width: 100%;">
-            <source src="static/videos/6538d00d73.mp4" type="video/mp4">
-            sorry, your browser does not support HTML5 Videos.
-          </video>
-          <div style="color: rgb(0, 0, 0); text-align: left; padding: 10px; backgrgb(254, 254, 254),0,0.5);">
-            <strong>[Video Description]:</strong> The video showcases an individual engaging in snowboarding on a snowy slope. The snowboarder is captured in various stages of movement, riding down the slope and performing a jump trick off a blue metal rail. The setting appears to be a winter sports resort with clear blue skies, pristine snow, and scenic mountains in the backdrop. The snowboarder is dressed in dark winter sportswear, prominently seen against the bright winter landscape.
-            <br>
-            <br>
-            <ul>
-              <li><strong>[Snowboard]:</strong> A blue and white snowboard with black bindings. The board is designed for snowboarding, a winter sport where the rider descends a snow-covered slope on a single board with foot straps.</li>
-              <li><strong>[Snowboarder]:</strong> A person dressed in dark winter sportswear, including a hooded jacket, snow pants, and snowboarding-specific boots. They are seen performing a jump trick off a blue metal rail, showcasing balance and skill.</li>
-              <li><strong>[Slopestyle Obstacle]:</strong> A blue metal rail is featured in the video, set against a winter landscape with a white snowy background. The snowboarder is seen approaching and jumping over the rail.</li>
-              <li><strong>[Snowy Slopes]:</strong> The video is set on a snowy slope with pristine white snow, set against a backdrop of rolling hills and a clear blue sky with white clouds. The sun casts shadows on the ground, indicating either early morning or late afternoon.</li>
-            </ul>
-          </div>
-          
-      </div>
-  
-      <!-- 第四个视频-文本对 -->
-      <div style="text-align: center;">
-          <video poster="" id="video4" class="lozad" autoplay muted loop playsinline style="width: 100%;">
-            <source src="static/videos/9Nn3-kdTybw.mp4" type="video/mp4">
-            sorry, your browser does not support HTML5 Videos.
-          </video>
-          <div style="color: rgb(0, 0, 0); text-align: left; padding: 10px; backgrgb(254, 254, 254),0,0.5);">
-            <strong>[Video Description]:</strong> The video captures an indoor bowling alley sequence focused on a bowling ball in motion. The ball is seen rolling down the polished wooden lane towards the pins at the end. The bowling ball is dark with a glossy finish, and it reflects the ambient lighting of the alley. The lane is bordered by gutters, and the pins are arranged in a triangular formation, with two pins on the left and one on the right. The atmosphere is casual and leisurely, showcasing a classic indoor recreational activity.
-            <br>
-            <br>
-            <ul>
-              <li><strong>[Bowling Ball]:</strong> The bowling ball is a significant object in the video, and its motion is the main event. It is dark with a glossy finish, reflecting the ambient lighting of the alley.</li>
-              <li><strong>[Wooden Lane]:</strong> The wooden lane is a clear and defined object in the video, with the bowling ball's movement towards the pins at the end.</li>
-              <li><strong>[Pins]:</strong> The pins are arranged in a triangular formation, with two pins on the left and one on the right, and they are a significant part of the bowling activity.</li>
-              <li><strong>[Alley]:</strong> The alley is dimly lit with ambient lighting, setting the mood for a casual and leisurely activity.</li>
-            </ul>
-          </div>
-          
-      </div>
-      <div style="text-align: center;">
-        <video poster="" id="video5" class="lozad" autoplay muted loop playsinline style="width: 100%;">
-          
-          <source src="static/videos/tokyo-walk.mp4" type="video/mp4">
-          sorry, your browser does not support HTML5 Videos.
-        </video>
-        <div style="color: rgb(0, 0, 0); text-align: left; padding: 10px; backgrgb(254, 254, 254),0,0.5);">
-          <strong>[Video Description]:</strong> The video shows a woman walking down a busy city street at night. She is wearing a red dress and carrying a handbag. She stops to look at a building and then walks away. The woman is also seen walking down a rain-soaked street and looking at a building. She then walks away again. The video also shows a man walking down the street and looking at a building. The woman is also seen walking down a street and looking at a building. The video ends with a woman walking down a street and looking at a building. Overall, the video captures the busy and bustling atmosphere of a city at night. The woman's red dress and handbag stand out as she walks down the street, and her attention to the buildings she looks at adds depth to the scene. The man walking down the street also adds to the overall sense of a busy urban environment.
-          <br>
-          <br>
-          <ul>
-            <li><strong>[Woman]:</strong> A stylish woman wearing a black leather jacket, a long red dress, and black boots. She carries a black purse and has sunglasses on. </li>
-            <li><strong>[Traffic lights]:</strong> There are traffic lights visible in the background, indicating that the street is a busy intersection.</li>
-            <li><strong>[People]:</strong> There are people walking around on the street, adding to the bustling atmosphere of the city at night. </li>
-            <li><strong>[Building]:</strong> A large, multi-story structure with a prominent presence in the background. It might be a commercial or residential building.</li>
-          </ul>
-        </div>
-        
-    </div>
-  </div>
-  
-    
-
-
-  </div>
-</div>
-</div>
-</section>
-
-
-<!-- End paper abstract -->
-
-<section class="section hero is-light">
-  <h2 class="title is-3">Paragraph-to-Video Visualization (Remove)</h2>
-  
-  <div class="is-max-desktop">
-    <div class="marquee-wrapper">
-        <div class="marquee-block">
-          <div class="marquee-inner to-left">
-            <span>
-              <div class="marquee-item">
-                <img src="./static/gifs/removal/6.gif" alt="Teaser" width="120%">
-                <p class="text-white" style="font-size: 13px; text-align: left;">
-                  <del>[Snowboarder]: A person dressed in a dark snowsuit, possibly black or navy, with a 
-                  snowboard attached to their feet. They display confidence and skill as they navigate down the slope, executing moves and jumps.</del> <u>Background.</u>
-                </p>
-              </div>
-              <div class="marquee-item">
-                <img src="./static/gifs/removal/12.gif" alt="Teaser" width="120%">
-                <p class="text-white" style="font-size: 13px; text-align: left;">
-                  <del>[Man in Red Top]: The subject is a fit male wearing a bright red short-sleeved shirt, navy blue athletic shorts, and black sports shoes. He displays athleticism and coordination as he skillfully plays with the football.</del> <u>Background.</u>
-                </p>
-              </div>
-              <div class="marquee-item">
-                <img src="./static/gifs/removal/18.gif" alt="Teaser" width="120%">
-                <p class="text-white" style="font-size: 13px; text-align: left;">
-                  <del>[Eagle]: A majestic eagle, with a sharp, hooked beak and keen eyes, its plumage is a mix of dark brown feathers with lighter brown accents. Its powerful yellow talons grip the rocky surface, symbolizing its strength and dominance over the terrain.</del> <u>Background.</u>
-                </p>
-              </div>
-              <div class="marquee-item">
-                <img src="./static/gifs/removal/36.gif" alt="Teaser" width="120%">
-                <p class="text-white" style="font-size: 13px; text-align: left;">
-                  <del>[Brown Dog]: An enthusiastic medium-sized brown dog with glossy fur and a lean build. It remains undeterred by the splashes, focused on the man and possibly a tossed object or on the interaction itself. Its tail is partially submerged, demonstrating agility and the enjoyment of water.</del> <u>Background.</u>
-                </p>
-              </div>
-              <div class="marquee-item">
-                <img src="./static/gifs/removal/54.gif" alt="Teaser" width="120%">
-                <p class="text-white" style="font-size: 13px; text-align: left;">
-                  <del>[Giant Panda]: A large, black and white panda with a distinct, dense coat. It is shown playfully climbing and balancing on the wooden beams of its enclosure. It has a round face, large black eye patches, and is quite agile for its size.</del> <u>Background.</u>
-                </p>
-              </div>
-              <div class="marquee-item">
-                <img src="./static/gifs/removal/144.gif" alt="Teaser" width="120%">
-                <p class="text-white" style="font-size: 13px; text-align: left;">
-                  <del>[Camel]: A light brown camel stands prominently in the center of the frame with a tranquil demeanor. Its fur is smooth, and its hump is well-defined. Its facial expression remains placid, capturing the quintessential essence of a creature adapted to arid environments.</del> <u>Background.</u>
-                </p>
-              </div>
-              <div class="marquee-item">
-                <img src="./static/gifs/removal/141.gif" alt="Teaser" width="120%">
-                <p class="text-white" style="font-size: 13px; text-align: left;">
-                  <del>[Seagull]: A white seagull with wings spread wide, showcasing gray tips. As it flies, its yellow beak and black eye markings are noticeable. The bird's underbelly is white, while the light and smooth lines of its body exemplify a strong yet graceful figure in mid-flight.</del> <u>Background.</u>
-                </p>
-              </div>
-
-              <div class="marquee-item">
-                <img src="./static/gifs/removal/150.gif" alt="Teaser" width="120%">
-                <p class="text-white" style="font-size: 13px; text-align: left;">
-                  <del>[Whale Shark]: A massive, gentle, spotted whale shark seen dominating the frame with its grand presence. It showcases distinctive white spots along its dark gray body and long, powerful fins. This shark is the focal point and moves gracefully amid the marine life.</del> <u>Background.</u>
-                </p>
-              </div>
-            </span>
-            <span>
-              <div class="marquee-item">
-                <img src="./static/gifs/removal/96_.gif" alt="Teaser" width="120%">
-                <p class="text-white" style="font-size: 13px; text-align: left;">
-                  <b>*</b> <del>[Player 1 with Red Hat]: Male player on the near side of the court. He is wearing a white shirt, dark shorts, and a red hat, and is playing with a yellow tennis racket. He serves and returns the ball, demonstrating agility and competitive spirit in the game.</del> <u>Background.</u>
-                </p>
-              </div>
-              <div class="marquee-item">
-                <img src="./static/gifs/removal/105_.gif" alt="Teaser" width="120%">
-                <p class="text-white" style="font-size: 13px; text-align: left;">
-                  <b>*</b> <del>[Baby Gorilla]: A young gorilla with black fur, portrayed in the act of crawling. The gorilla's movement is slow and cautious, exhibiting natural curiosity as it explores its surroundings.</del> <u>Background.</u>
-                </p>
-              </div>
-              <div class="marquee-item">
-                <img src="./static/gifs/removal/111_.gif" alt="Teaser" width="120%">
-                <p class="text-white" style="font-size: 13px; text-align: left;">
-                  <b>*</b> <del>[Climber]: A woman in athletic wear, featuring a black tank top and matching shorts, with her hair tied back. She shows focus and precision in her bouldering technique.</del> <u>Background.</u>
-                </p>
-              </div>
-              <div class="marquee-item">
-                <img src="./static/gifs/removal/120_.gif" alt="Teaser" width="120%">
-                <p class="text-white" style="font-size: 13px; text-align: left;">
-                  <b>*</b> <del>[Dog]: Medium-sized and likely of a common breed, sporting a coat with hues of grey and black. The dog is on a leash, indicating it is well-trained and accustomed to walking alongside its owner.</del> <u>Background.</u>
-                </p>
-              </div>
-              <div class="marquee-item">
-                <img src="./static/gifs/removal/132_.gif" alt="Teaser" width="120%">
-                <p class="text-white" style="font-size: 13px; text-align: left;">
-                  <b>*</b> <del>[Painted Stork]: A solitary painted stork with white and pink plumage, known for its long, orange beak and black-and-white wing pattern. Visible are the bird's long, stilt-like legs that support it as it wades in the water. Its movements are purposeful and focused as it hunts for food.</del> <u>Background.</u>
-                </p>
-              </div>
-              <div class="marquee-item">
-                <img src="./static/gifs/removal/147_.gif" alt="Teaser" width="120%">
-                <p class="text-white" style="font-size: 13px; text-align: left;">
-                  <b>*</b> <del>[Basketball Player]: Athlete wearing a white basketball jersey with a prominent star design, royal blue basketball shorts, and white sports sneakers. The player is focused on performing dribbling exercises, showcasing control and agility.</del> <u>Background.</u>
-                </p>
-              </div>
-              <div class="marquee-item">
-                <img src="./static/gifs/removal/162_.gif" alt="Teaser" width="120%">
-                <p class="text-white" style="font-size: 13px; text-align: left;">
-                  <b>*</b> <del>[Basketball Player in White]: A male player sporting a white shirt and dark shorts, actively engaging in play. He exhibits agility and focus as he positions himself to intercept or rebound the basketball.</del> <u>Background.</u>
-                </p>
-              </div>
-              <div class="marquee-item">
-                <img src="./static/gifs/removal/171_.gif" alt="Teaser" width="120%">
-                <p class="text-white" style="font-size: 13px; text-align: left;">
-                  <b>*</b> <del>[Black Cat]: A sleek, all-black cat with a lithe figure and attentive eyes. It follows the dog closely, participating in the playful pursuit with agility and curiosity.</del> <u>Background.</u>
-                </p>
-              </div>
-              
-            </span>
-            
-        </div>
-        
-    </div>
-    <h5 class="title is-6"><b>*</b>: with grounding models predicted masks</h5>
-  </section>
-
-
-  <section class="section hero is-light">
-    <h2 class="title is-3">Paragraph-to-Video Visualization (Add)</h2>
-    
-    <div class="is-max-desktop">
-      <div class="marquee-wrapper">
-          <div class="marquee-block">
-            <div class="marquee-inner to-left">
-              <span>
-                <div class="marquee-item">
-                  <img src="./static/gifs/adding/10.gif" alt="Teaser" width="120%">
-                  <p class="text-white" style="font-size: 13px; text-align: left;">
-                    <u>[Robin]: A small bird with a striking orange-red breast and grey-brown feathers covering its wings and back. The bird's beak is narrow and sharp, adept for foraging and pecking the ground for insects or worms. In the first frame, the Robin is captured mid-peck, indicating active foraging behavior.</u>
-                  </p>
-                  
-                </div>
-                <div class="marquee-item">
-                  <img src="./static/gifs/adding/46.gif" alt="Teaser" width="120%">
-                  <p class="text-white" style="font-size: 13px; text-align: left;">
-                    <u>[White Poodle]: A small, fluffy white poodle exhibiting a pampered and stylized appearance with a rounded haircut characteristic of the breed's show grooming standards. The dog moves with a deliberate prance, displaying the distinctive behavior and training fit for a show animal.</u>
-                  </p>
-                </div>
-                <div class="marquee-item">
-                  <img src="./static/gifs/adding/70.gif" alt="Teaser" width="120%">
-                  <p class="text-white" style="font-size: 13px; text-align: left;">
-                    <u>[White Dog]: An active and attentive white Labrador, displaying playful and energetic movements as it interacts with its surroundings and human companions.</u>
-                  </p>
-                </div>
-                <div class="marquee-item">
-                  <img src="./static/gifs/adding/100.gif" alt="Teaser" width="120%">
-                  <p class="text-white" style="font-size: 13px; text-align: left;">
-                    <u>[Observer]: A male wearing dark grey shorts, a black T-shirt with neon yellow logos, and athletic shoes. He stands attentively with his arms crossed, watching the shooter's performance.</u>
-                  </p>
-                </div>
-                <div class="marquee-item">
-                  <img src="./static/gifs/adding/166.gif" alt="Teaser" width="120%">
-                  <p class="text-white" style="font-size: 13px; text-align: left;">
-                    <u>[Black Dog]: A medium-sized black dog with distinct tan markings on its legs and snout. It wears a red collar and exhibits high energy as it sprints across the lawn with its tongue out in a playful stance.</u>
-                  </p>
-                </div>
-                <div class="marquee-item">
-                  <img src="./static/gifs/adding/34.gif" alt="Teaser" width="120%">
-                  <p class="text-white" style="font-size: 13px; text-align: left;">
-                    <u>[Woman]: A casually dressed woman sporting a buttoned pink shirt and light blue denim jeans. Her blonde hair is tied back in a ponytail, and she wears white sneakers suitable for walking. She displays a relaxed demeanor while strolling with her dog.</u>
-                  </p>
-                </div>
-                <div class="marquee-item">
-                  <img src="./static/gifs/adding/add_teaser.gif" alt="Teaser" width="120%">
-                  <p class="text-white" style="font-size: 13px; text-align: left;">
-                    <u>[Woman]: A casual woman in a white beach dress
-                      and with a straw hat, walking beside a man, likely
-                      accompanying him and his white dog. She moves
-                      with a relaxed stride, suggesting a leisurely outing
-                      together.</u>
-                  </p>
-                </div>
-
-                <div class="marquee-item">
-                  <img src="./static/gifs/adding/142.gif" alt="Teaser" width="120%">
-                  <p class="text-white" style="font-size: 13px; text-align: left;">
-                    <u>[Seagull]: A white seagull with wings spread wide, showcasing gray tips. As it flies, its yellow beak and black eye markings are noticeable, adding to its distinctive features. The bird's underbelly is white, while the light and smooth lines of its body exemplify a strong yet graceful figure in mid-flight.</u>
-                  </p>
-                </div>
-                
-                
-              </span>
-
-              <span>
-                <div class="marquee-item">
-                  <img src="./static/gifs/adding/130_.gif" alt="Teaser" width="120%">
-                  <p class="text-white" style="font-size: 13px; text-align: left;">
-                    <b>*</b> <u>[Brown Dog]: An exuberant medium-sized brown dog with a darker shade along its back and lighter tan on its legs and face. It has floppy ears, a long tail, and appears to be of a hunting or retriever breed. The dog's demeanor is playful and curious, as it moves around the grassy field with a sense of freedom and exploration.</u>
-                  </p>
-                </div>
-                
-                <div class="marquee-item">
-                  <img src="./static/gifs/adding/4_.gif" alt="Teaser" width="120%">
-                  <p class="text-white" style="font-size: 13px; text-align: left;">
-                    <b>*</b> <u>[Surfer]: An athlete wearing a dark wetsuit, possibly black or navy, showcasing talent in balancing and steering on the waves. Their stance is wide and steady, knees bent, arms outstretched for balance, and their posture exuding confidence.</u>
-                  </p>
-                </div>
-                <div class="marquee-item">
-                  <img src="./static/gifs/adding/7_.gif" alt="Teaser" width="120%">
-                  <p class="text-white" style="font-size: 13px; text-align: left;">
-                    <b>*</b> <u>[Snowboarder]: A person dressed in a dark snowsuit, possibly black or navy, with a snowboard attached to their feet. They display confidence and skill as they navigate down the slope, executing moves and jumps.</u>
-                  </p>
-                </div>
-                <div class="marquee-item">
-                  <img src="./static/gifs/adding/55_.gif" alt="Teaser" width="120%">
-                  <p class="text-white" style="font-size: 13px; text-align: left;">
-                    <b>*</b> <u>[Giant Panda]: A large, black and white panda with a distinct, dense coat. It is shown playfully climbing and balancing on the wooden beams of its enclosure. It has a round face, large black eye patches, and is quite agile for its size.</u>
-                  </p>
-                </div>
-                <div class="marquee-item">
-                  <img src="./static/gifs/adding/76_.gif" alt="Teaser" width="120%">
-                  <p class="text-white" style="font-size: 13px; text-align: left;">
-                    <b>*</b> <u>[Skier in Blue and Green]: A skier wearing a blue jacket with green sleeves and blue pants. They're equipped with skiing poles and skis that appear to be primarily white with some red signage. Their helmet is a bright neon lime green with matching goggles.</u>
-                  </p>
-                </div>
-                <div class="marquee-item">
-                  <img src="./static/gifs/adding/109_.gif" alt="Teaser" width="120%">
-                  <p class="text-white" style="font-size: 13px; text-align: left;">
-                    <b>*</b><u>[Dog]: A light-colored Labrador with a lean build, seen swimming in the water. It has a pink nose, pointed ears, and appears to be a seasoned swimmer. The dog wears a black collar with a red attachment, possibly for safety or identification.</u>
-                  </p>
-                </div>
-                <div class="marquee-item">
-                  <img src="./static/gifs/adding/112_.gif" alt="Teaser" width="120%">
-                  <p class="text-white" style="font-size: 13px; text-align: left;">
-                    <b>*</b> <u>[Climber]: A woman in athletic wear, featuring a black tank top and matching shorts, with her hair tied back. She shows focus and precision in her bouldering technique.</u>
-                  </p>
-                </div>
-                <div class="marquee-item">
-                  <img src="./static/gifs/adding/175_.gif" alt="Teaser" width="120%">
-                  <p class="text-white" style="font-size: 13px; text-align: left;">
-                    <b>*</b> <u>[Bird]: The central object in the video is a soaring bird, likely a raptor, given its size and wing shape. It has dark feathering that contrasts against the sky, a fan-shaped tail, and widespread wings that demonstrate strong, controlled flight.</u>
-                  </p>
-                </div>
-              </span>
-          </div>
-      </div>
-      <h5 class="title is-6"><b>*</b>: with MLLM predicted box layouts</h5>
-    </section>
-
-
-    <section class="section hero is-light">
-      <h2 class="title is-3">Paragraph-to-Video Visualization (Change)</h2>
-      <div class="is-max-desktop">
-        <div class="marquee-wrapper">
-            <div class="marquee-block">
-              <div class="marquee-inner to-left">
-                <span>
-                  <div class="marquee-item">
-                    <img src="./static/gifs/editing/107.gif" alt="Teaser" width="120%">
-                    <p class="text-white" style="font-size: 13px; text-align: left;">
-                      <strong><del>[Baby Gorilla]</del> <u>[Baby Panda]</u>:</strong> A young <del>gorilla</del> <u>panda</u> with black fur, portrayed in the act of
-                      crawling. The gorilla's movement is slow and cautious, exhibiting natural curiosity as it explores its surroundings.
-                    </p>
-                    
-                  </div>
-                  <div class="marquee-item">
-                    <img src="./static/gifs/editing/170.gif" alt="Teaser" width="120%">
-                    <p class="text-white" style="font-size: 13px; text-align: left;">
-                      <strong><del>[Brown Dog]</del> <u>[Raccoon]</u></strong>: A medium-sized,
-                      <del>light brown dog</del> <u>raccoon</u> with a sturdy
-                      build and alert ears. Its tail wags
-                      enthusiastically as it leads the playful
-                      chase in the forest, displaying a sense of
-                      happiness and energy
-                    </p>
-                  </div>
-                  <div class="marquee-item">
-                    <img src="./static/gifs/editing/8.gif" alt="Teaser" width="120%">
-                    <p class="text-white" style="font-size: 13px; text-align: left;">
-                      [Snowboarder]: A person dressed in a <u>white snowsuit</u> <del>dark snowsuit, possibly black or navy,</del> with a
-                      snowboard attached to their feet. They display confidence and skill as they
-                      navigate down the slope, executing moves and jumps.
-                    </p>
-                  </div>
-                  <div class="marquee-item">
-                    <img src="./static/gifs/editing/164.gif" alt="Teaser" width="120%">
-                    <p class="text-white" style="font-size: 13px; text-align: left;">
-                      [Basketball Player <u>in White</u>]: A male
-                  player sporting <del>a white shirt and dark
-                    shorts</del> <u>a blue shirt and white shorts,</u>
-                  actively engaging in play. He exhibits
-                  agility and focus as he positions himself
-                  to intercept or rebound the basketball.
-                    </p>
-                  </div>
-                  <div class="marquee-item">
-                    <img src="./static/gifs/editing/edit_teaser.gif" alt="Teaser" width="120%">
-                    <p class="text-white" style="font-size: 13px; text-align: left;">
-                      <strong>[Man]:</strong> A casually dressed man <del>in a red shirt and blue
-                    jeans</del> <u>in a blue shirt and white beach shorts</u>, likely
-                    the owner of the white dog. He walks with a relaxed gait,
-                    indicating a leisurely outing.
-                    </p>
-                    
-                  </div>
-                  <div class="marquee-item">
-                    <img src="./static/gifs/editing/65.gif" alt="Teaser" width="120%">
-                    <p class="text-white" style="font-size: 13px; text-align: left;">
-                      <del>[Man]</del> <u>[Man in orange]</u>: An athletic man wearing <u>an orange shirt</u>, <del>black</del> <u>white</u> shorts, and sports
-                shoes. He is running on a well-maintained playing area with manicured green grass, a
-                smooth outfield, and a perimeter wall adorned with sponsorship banners and a scoreboard.
-                     </p>
-                  </div>
-                  <div class="marquee-item">
-                    <img src="./static/gifs/editing/92.gif" alt="Teaser" width="120%">
-                    <p class="text-white" style="font-size: 13px; text-align: left;">
-                      [Woman]: Dressed in <del>a casual outfit of
-                      blue denim shorts and a horizontally
-                      striped blue and white T-shirt</del> <u>a dark red
-                        dinning dress.</u> She accessorizes with pink
-                      flip-flops and is engaged in the action of
-                      putting a leash on her dog, showing signs
-                      of preparing for a walk.
-                    </p>
-                  </div>
-                  
-                  <div class="marquee-item">
-                    <img src="./static/gifs/editing/59.gif" alt="Teaser" width="120%">
-                    <p class="text-white" style="font-size: 13px; text-align: left;">
-                      <del>[Large Shark]</del> <u>[Orange Shark]</u>: A sizable and powerful shark, possibly a Great White, with a grey and <del>white</del> <u>orange</u> body. Its dorsal fin is tall and prominent, and it has a distinctly streamlined shape. The shark conveys a sense of calm authority as it moves effortlessly through the water.
-                    </p>
-                  </div>
-                </span>
-                <span>
-                  <div class="marquee-item">
-                    <img src="./static/gifs/editing/14_.gif" alt="Teaser" width="120%">
-                    <p class="text-white" style="font-size: 13px; text-align: left;">
-                      <b>*</b> [Man in <del>Red Top</del> <u>White Shirt</u>]: The subject is a fit male wearing a bright <del>red</del> <u>white</u> short-sleeved shirt, navy blue athletic shorts, and black sports shoes. He displays athleticism and coordination as he skillfully plays with the football.
-                    </p>
-                  </div>
-                  <div class="marquee-item">
-                    <img src="./static/gifs/editing/32_.gif" alt="Teaser" width="120%">
-                    <p class="text-white" style="font-size: 13px; text-align: left;">
-                      <b>*</b> <del>[Dog]</del> <u>[Cat]</u>: A medium-sized <del>black dog</del> <u>white cat</u> with a shiny coat and a long tail. It sports a thick collar connected to a leash and appears lively, enthusiastically leading the way during its walk with the owner.
-                    </p>
-                  </div>
-                  <div class="marquee-item">
-                    <img src="./static/gifs/editing/23_.gif" alt="Teaser" width="120%">
-                    <p class="text-white" style="font-size: 13px; text-align: left;">
-                      <b>*</b><del>[Siberian Husky]</del> <u>[Corgi]</u>: A medium-sized, <del>agile</del> <u>Corgi</u> dog with a thick coat that is grey, white, and black in color. It has distinctive pointed ears and displays exuberant energy as it plays catch with a visible excitement.</p>
-                  </div>
-                  <div class="marquee-item">
-                    <img src="./static/gifs/editing/53_.gif" alt="Teaser" width="120%">
-                    <p class="text-white" style="font-size: 13px; text-align: left;">
-                      <b>*</b><u>[Dalmatian]</u> <del>[Dog]</del>: A medium-sized, <u>Dalmatian</u> dog with white facial markings, a white chest,
-and white-tipped paws. It has floppy ears, a long tail, and a gentle expression. The dog is
-actively engaging with a ball, using its front paws and nose, displaying playful behavior.
-
-                    </p>
-                  </div>
-                  <div class="marquee-item">
-                    <img src="./static/gifs/editing/56.gif" alt="Teaser" width="120%">
-                    <p class="text-white" style="font-size: 13px; text-align: left;">
-                      <b>*</b> <del>[Giant Panda]</del> <u>[Brown Bear]</u>: A large, <del>black and white panda</del> <u>brown bear</u> with a distinct, dense coat. It is shown playfully climbing and balancing on the wooden beams of its enclosure. It has a round face, large black eye patches, and is quite agile for its size.
-                    </p>
-                  </div>
-                  <div class="marquee-item">
-                    <img src="./static/gifs/editing/122_.gif" alt="Teaser" width="120%">
-                    <p class="text-white" style="font-size: 13px; text-align: left;">
-                      <b>*</b> <del>[Dog]</del> <u>[White Cat]</u>: <del>Medium-sized and likely of a common breed, sporting a coat with hues of grey and black. The dog</del> <u>The white cat</u> is on a leash, indicating it is well-trained and accustomed to walking alongside its owner.
-                    </p>
-                  </div>
-                  <div class="marquee-item">
-                    <img src="./static/gifs/editing/164_.gif" alt="Teaser" width="120%">
-                    <p class="text-white" style="font-size: 13px; text-align: left;">
-                      <b>*</b> [Basketball Player <u>in White</u>]: A male
-                      player sporting <del>a white shirt and dark
-                        shorts</del> <u>a blue shirt and white shorts,</u>
-                      actively engaging in play. He exhibits
-                      agility and focus as he positions himself
-                      to intercept or rebound the basketball.</p>
-                  </div>
-                  <div class="marquee-item">
-                    <img src="./static/gifs/editing/170_.gif" alt="Teaser" width="120%">
-                    <p class="text-white" style="font-size: 13px; text-align: left;">
-                      <b>*</b> <del>[Brown Dog]</del> <u>[Raccoon]</u>: A medium-sized,
-                      <del>light brown dog</del> <u>raccoon</u> with a sturdy
-                      build and alert ears. Its tail wags
-                      enthusiastically as it leads the playful
-                      chase in the forest, displaying a sense of
-                      happiness and energy
-                    </p>
-                  </div>
-                </span>
-            </div>
-        </div>
-        <h5 class="title is-6"><b>*</b>: with grounding models predicted masks</h5>
-      </section>
-
-
-
-      <section class="section hero">
-        <div class="hero-body">
-          <div class="container">
-            <h2 class="title is-3"> Comparsions with Other Baselines</h2>
-
-            <div class="marquee-item s-larger">
-              <img src="./static/gifs/compare/remove_1.gif" alt="Teaser" width="120%">
-              <d>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Input Video&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LGVI&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;VideoComposer&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ours</d>
-              <p class="text-white" style="font-size: 12px; text-align: left;">
-                <del>[Whale Shark]: A massive, gentle, spotted whale shark seen dominating the frame with its grand presence. It showcases distinctive white spots along its dark gray body and long, powerful fins. This shark is the focal point and moves gracefully amid the marine life.</del> <u>Background.</u>
-              </p>
-            </div>
-
-            <div class="marquee-item s-larger">
-              <img src="./static/gifs/compare/remove_2.gif" alt="Teaser" width="120%">
-              <d>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Input Video&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LGVI&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;VideoComposer&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ours</d>
-              <p class="text-white" style="font-size: 12px; text-align: left;">
-                <del>[Whale Shark]: A massive, gentle, spotted whale shark seen dominating the frame with its grand presence. It showcases distinctive white spots along its dark gray body and long, powerful fins. This shark is the focal point and moves gracefully amid the marine life.</del> <u>Background.</u>
-              </p>
-            </div>
-
-            <div class="marquee-item s-larger-4">
-              <img src="./static/gifs/compare/add_1.gif" alt="Teaser" width="120%">
-              <d>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Input Video&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Inpaint-Anything&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;VideoComposer&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ours</d>
-              <p class="text-white" style="font-size: 12px; text-align: left;">
-                <u>[Black Dog]: A medium-sized black dog with distinct tan markings on its legs and snout. It wears a red collar and exhibits high energy as it sprints across the lawn with its tongue out in a playful stance.</u>
-              </p>
-            </div>
-           
-            <div class="marquee-item s-larger-4">
-              <img src="./static/gifs/compare/add_2.gif" alt="Teaser" width="120%">
-              <d>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Input Video&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Inpaint-Anything&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;VideoComposer&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ours</d>
-              <p class="text-white" style="font-size: 12px; text-align: left;">
-                <u>[Woman]: A casually dressed woman sporting a buttoned pink shirt and light blue denim jeans. Her blonde hair is tied back in a ponytail, and she wears white sneakers suitable for walking. She displays a relaxed demeanor while strolling with her dog.</u>
-              </p>
-            </div>
-
-            <div class="marquee-item s-larger-4">
-              <img src="./static/gifs/compare/edit_170.gif" alt="Teaser" width="120%">
-              <d>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Input Video&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TokenFlow&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;VideoComposer&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ours</d>
-              <p class="text-white" style="font-size: 12px; text-align: left;">
-                <del>[Brown Dog]</del> <u>[Raccoon]</u>: A medium-sized,
-                <del>light brown dog</del> <u>raccoon</u> with a sturdy
-                build and alert ears. Its tail wags
-                enthusiastically as it leads the playful
-                chase in the forest, displaying a sense of
-                happiness and energy
-              </p>
-            </div>
-           
-            <div class="marquee-item s-larger-4">
-              <img src="./static/gifs/compare/edit_92.gif" alt="Teaser" width="120%">
-              <d>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Input Video&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TokenFlow&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;VideoComposer&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ours</d>
-              <p class="text-white" style="font-size: 12px; text-align: left;">
-                [Woman]: Dressed in <del>a casual outfit of
-                blue denim shorts and a horizontally
-                striped blue and white T-shirt</del> <u>a dark red
-                  dinning dress.</u> She accessorizes with pink
-                flip-flops and is engaged in the action of
-                putting a leash on her dog, showing signs
-                of preparing for a walk.
-              </p>
-            </div>
-        </div>
-      </div>
-      </div>
-      </section>
-
       <section class="section hero">
         <div class="container is-max-desktop">
           <div class="columns is-centered has-text-centered">
             <div class="column">
-              <h2 class="title is-3">Quantative Results</h2>
-              <div class="content has-text-justified">
-                <img src="static/images/v2p.png">
-              </div>
-              <p class="content has-text-justified">
-                We conducted a quantitative evaluation of our proposed RACCooN framework's video-to-paragraph generation capabilities, comparing it against strong baselines with a focus on object-centric captioning and object layout planning. The results, summarized in Table 1, show that open-source video-LLMs (e.g., PG-VL, Video-Chat) which have smaller LLMs (< 13B parameters), struggle with object-centric captioning and usually fail to generate layout planning. This is primarily due to their lack of instructional fine-tuning and insufficient video detail modeling without multi-granular pooling. In contrast, our RACCooN framework demonstrates superior performance in both object-centric captioning and complex object layout planning, benefiting from the instructional tuning on our VPLM dataset. Additionally, our method achieves competitive performance with proprietary MLLMs (e.g., Gemini 1.5 Pro, GPT-4o) in key object captioning and layout planning, demonstrating its superior instruction following and generation quality.
-              </p>
-              <img src="static/images/p2v.png">
-              <p class="content has-text-justified">
-                As shown in Table 3, we quantitatively compare the video editing ability of RACCooN with strong video editing models based on inpainting or DDIM-inversion across three object-centric video content editing subtasks: object changing, removal, and adding. In general, RACCooN outperforms all baselines across 9 metrics. For object changing, RACCooN outperforms the best-performing baseline by 0.8% on CLIP-T, indicating better video-text alignment while maintaining temporal consistency, as demonstrated by comparable CLIP-F and Qedit scores. Note that LGVI is not designed to alter video attributes and tends to preserve video content with marginal change (i.e., identical input and output videos), resulting in improved CLIP-F scores. In the object removal task, RACCooN shows significant improvements over strong baselines (relatively +57.8% FVD, +2.5% SSIM, +9.6% PSNR). Such improvements are maintained in the addition task (relatively+41.6% FVD, +4.3% PSNR). Meanwhile, some DDIM inversion-based models (e.g., TokenFlow) work well for specific tasks (change objects), but do not handle other types of editing. In contrast, our method is an all-rounder player that enables diverse video content editing skills.
-               </p>
-
+              <h2 class="title is-3">Qualitative Results</h2>              
+              <br>
+              <center>
+                <div class="content has-text-justified" style="margin: auto; width: 90%; color:#fa3c3c">
+                  <b>Content warning again:</b> this paper contains content that may be inappropriate or offensive, such as violence, sexually explicit content, and negative stereotypes and actions.
+                </div>
+                <br>
+                <br>
+                <div id="image-container">
+                  <!-- Dynamically generated buttons and images will go here -->
+                </div>
+          
+                <!-- <button id="toggleButton1" class="fancy-button">Unlock Figures</button>
+                <br><br><br>
+                <figure id="blurredFigure1">
+                  <img src="./static/images/overall-vis.png" alt="Sample Image">
+                  <div class="content has-text-justified" style="margin: auto; width: 90%;">
+                    <b>Visualization of proposed SAFREE.</b> Left: Comparison with other methods on different
+                      concept removal. Right: SAFREE incorporates with different T2I backbone models (SDXL and
+                      SD-v3) and T2V models (ZeroScopeT2V and CogVideoX).
+                </div>
+                </figure>       -->
+              </center>
+              <!-- <br>
+              <center>
+                <button id="toggleButton2" class="fancy-button">Unlock Figures</button>
+                <br>
+                <figure id="blurredFigure2">
+                  <img src="./static/images/overall-vis.png" alt="Sample Image">
+                  <div class="content has-text-justified" style="margin: auto; width: 90%;">
+                    <b>Visualization of proposed SAFREE.</b> Left: Comparison with other methods on different
+                      concept removal. Right: SAFREE incorporates with different T2I backbone models (SDXL and
+                      SD-v3) and T2V models (ZeroScopeT2V and CogVideoX).
+                </div>
+                </figure>      
+              </center> -->
+              <script src="script.js"></script>
             </div>
           </div>
         </div>
@@ -792,11 +269,11 @@ actively engaging with a ball, using its front paws and nose, displaying playful
   <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
-      <pre><code>@article{yoon2024raccoon,
-        title={RACCooN: Remove, Add, and Change Video Content with Auto-Generated Narratives}, 
-        author={Jaehong Yoon and Shoubin Yu and Mohit Bansal},
+      <pre><code>@article{yoon2024safree,
+        title={SAFREE: Training-Free and Adaptive Guard for Safe Text-to-Image And Video Generation}, 
+        author={Jaehong Yoon and Shoubin Yu and Vaidehi Patil and Huaxiu Yao and Mohit Bansal},
         year={2024},
-        journal={arXiv:2405.18406},
+        journal={arXiv:2410.xxxxx},
 }
   </code></pre>
     </div>
@@ -810,7 +287,7 @@ actively engaging with a ball, using its front paws and nose, displaying playful
       <div class="column is-8">
         <div class="content">
           <p>
-            This page was built upon the <a href="https://fate-zero-edit.github.io/">FateZero</a> project homepage (using <a href="https://github.com/vinthony/project-page-template">modification version</a> of <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> from <a href="https://github.com/vinthony">vinthony</a>).
+            This page was built upon the <a href="https://raccoon-mllm-gen.github.io/">RACCooN</a> project homepage (using <a href="https://github.com/vinthony/project-page-template">modification version</a> of <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> from <a href="https://github.com/vinthony">vinthony</a>).
             You are free to borrow this website. We just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
             Commons Attribution-ShareAlike 4.0 International License</a>.
           </p>

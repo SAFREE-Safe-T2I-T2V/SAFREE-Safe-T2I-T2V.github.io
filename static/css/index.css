@@ -1,6 +1,61 @@
 body {
   font-family: 'Noto Sans', sans-serif;
 }
+/* Style for the fancy button */
+.fancy-button {
+  background: linear-gradient(135deg, #6e8efb, #a777e3); /* Gradient background */
+  border: none;
+  color: white;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 30px; /* Rounded corners */
+  cursor: pointer;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  transition: all 0.3s ease; /* Smooth transition */
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.fancy-button-not-change {
+  background: linear-gradient(135deg, #6e8efb, #a777e3); /* Gradient background */
+  border: none;
+  color: white;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 30px; /* Rounded corners */
+  cursor: pointer;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  transition: all 0.3s ease; /* Smooth transition */
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+/* Add hover and focus effect for the button */
+.fancy-button-not-change:hover {
+  background: linear-gradient(135deg, #a777e3, #6e8efb); /* Reverse gradient */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Stronger shadow */
+  /* transform: translateY(-3px); Slight lift effect */
+}
+
+/* Add hover and focus effect for the button */
+.fancy-button:hover {
+  background: linear-gradient(135deg, #a777e3, #6e8efb); /* Reverse gradient */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Stronger shadow */
+  transform: translateY(-3px); /* Slight lift effect */
+}
+
+.fancy-button:active {
+  transform: translateY(0); /* Remove lift on click */
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); /* Return to smaller shadow */
+}
+
+/* Style for the figure, same as before */
+#blurredFigure img {
+  filter: blur(10px); /* Initially blurred */
+  transition: filter 0.5s ease; /* Smooth transition */
+}
+
 
 .hero-body-img{
   text-align: center;
