@@ -35,10 +35,10 @@ const altList = [
     'Safe T2V Generation with CogVideoX (2)',
     'Safe T2V Generation with CogVideoX (3)',
     'Safe T2V Generation with CogVideoX (4)',
-    'Safe T2V Generation with ZeroScopeT2V (1)',
-    'Safe T2V Generation with ZeroScopeT2V (2)',
-    'Safe T2V Generation with ZeroScopeT2V (3)',
-    'Safe T2V Generation with ZeroScopeT2V (4)',
+    'Safe T2V Generation with ZeroScope-T2V (1)',
+    'Safe T2V Generation with ZeroScope-T2V (2)',
+    'Safe T2V Generation with ZeroScope-T2V (3)',
+    'Safe T2V Generation with ZeroScope-T2V (4)',
 ];
 
 // Function to generate buttons and images
