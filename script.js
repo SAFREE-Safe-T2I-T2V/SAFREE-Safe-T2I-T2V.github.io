@@ -4,7 +4,7 @@
 const n = 16; // You can set this to any number of images you want
 const imageContainer = document.getElementById('image-container');
 const myList = [
-    './static/images/overall-vis2.png',
+    './static/images/overall-new.png',
     './static/images/nudity-1.png',
     './static/images/nudity-2.png',
     './static/images/nudity-3.png',
